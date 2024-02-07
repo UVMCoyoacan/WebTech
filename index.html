@@ -4,59 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebTech Solutions</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>WebTech Solutions</h1>
+    <header class="bg-dark text-white">
+        <div class="container">
+            <h1>WebTech Solutions</h1>
+        </div>
     </header>
  
-    <section>
+    <section class="container">
         <h2>Misión y Objetivos</h2>
-        <p><strong>Misión:</strong> Nuestra misión esa brindar servicios de consultoria de desarrollo web de vanguardia, <br>
-        colaborando estrechamente con nuestros clientes para comprender sus necesidades específicas <br>
-        y ofrecer soluciones personalizadas que impulsen su presencia en línea, mejoren experiencia del usuario <br>
-        y optimicen sus procesos empresariales.</p>
+        <p><strong>Misión:</strong> Nuestra misión es brindar servicios de consultoría de desarrollo web de vanguardia, colaborando estrechamente con nuestros clientes para comprender sus necesidades específicas y ofrecer soluciones personalizadas que impulsen su presencia en línea, mejoren la experiencia del usuario y optimicen sus procesos empresariales.</p>
         <p><strong>Objetivos:</strong></p>
         <ul>
-            <li>Objetivo 1: Proporcionar soluciones web innovadoras y personalizadas que satisfagan las necesidades <br>
-            únicas de cada cliente.</li><br>
-            <li>Objetivo 2: Optimizar el rendimiento y la eficiencia de los sitios web mediante el uso de las <br>
-            últimas tecnologías y mejores practicas de desarrollo.</li><br>
-            <li>Objetivo 3: Establecer relaciones a largo plazo con nuestros clientes, brindando soporte continuo y <br>
-            actualizaciones para garantizar la relevancia y competitividad de sus plataformas digitales.</li><br>
-            <!-- Puedes agregar más objetivos si es necesario -->
+            <li>Objetivo 1: Proporcionar soluciones web innovadoras y personalizadas que satisfagan las necesidades únicas de cada cliente.</li>
+            <li>Objetivo 2: Optimizar el rendimiento y la eficiencia de los sitios web mediante el uso de las últimas tecnologías y mejores prácticas de desarrollo.</li>
+            <li>Objetivo 3: Establecer relaciones a largo plazo con nuestros clientes, brindando soporte continuo y actualizaciones para garantizar la relevancia y competitividad de sus plataformas digitales.</li>
         </ul>
     </section>
  
-    <section>
+    <section class="container">
         <h2>Bibliografías</h2>
-        <div class="bibliografia">
-            <p>
-                <img src="dani.png" width="100 px" height="100 px"><br>
-            Daniela M Jiménez A. Estudiante de ingeniería en sistemas computacionales de octavo semestre en la<br>
-            Universidad del Valle de México, su área de interés es Telecomunicaciones y actualmente está ejerciendo<br>
-            en la empresa aseguradora MetLife como DataAnalyst.
-            </p>
-            <p>
-                <img src="brian.png" width="100 px" height="100 px"><br>
-            Brian A Viana C. Estudiante de ingeniería en sistemas computacionales de octavo semestre en la Universidad<br>
-            del Valle de México, su área de interés es el desarrollo Android ya que le gusta programar en lenguaje Kotlin<br>
-            y actualmente está ejerciendo en QuarkSoft como desarrollador Android.
-            </p>
-            <p>
-                <img src="nadia.jpeg" width="100 px" height="100 px"><br>
-            Nadia S Peña U. Estudiante de ingeniería en sistemas computacionales de octavo semestre en la Universidad<br>
-            del Valle de México, su área de interés es el Desarrollo de aplicaciones móviles y actualmente está ejerciendo<br>
-            en la empresa Informática Aplicada Consulting Group como desarrolladora.
-            </p>
-            <p>
-                <img src="salvador.jpeg" width="100 px" height="100 px"><br>
-            Salvador de J Pérez M. Estudiante de ingeniería en sistemas computacionales de octavo semestre en la Universidad<br>
-            del Valle de México, su área de interés es Redes y actualmente está ejerciendo en la Secretaria de Marina Armada<br>
-            de México en el área de TI Infraestructura.
-            </p>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="dani.png" class="card-img-top" alt="Daniela M Jiménez A">
+                    <div class="card-body">
+                        <p class="card-text">Daniela M Jiménez A. Estudiante de ingeniería en sistemas computacionales de octavo semestre en la Universidad del Valle de México, su área de interés es Telecomunicaciones y actualmente está ejerciendo en la empresa aseguradora MetLife como DataAnalyst.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="https://unavatar.io/brian.vianac@outlook.com" class="card-img-top" alt="Brian A Viana C">
+                    <div class="card-body">
+                        <p class="card-text">Brian A Viana C. Estudiante de ingeniería en sistemas computacionales de octavo semestre en la Universidad del Valle de México, su área de interés es el desarrollo Android ya que le gusta programar en lenguaje Kotlin y actualmente está ejerciendo en QuarkSoft como desarrollador Android.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="nadia.jpeg" class="card-img-top" alt="Nadia S Peña U">
+                    <div class="card-body">
+                        <p class="card-text">Nadia S Peña U. Estudiante de ingeniería en sistemas computacionales de octavo semestre en la Universidad del Valle de México, su área de interés es el Desarrollo de aplicaciones móviles y actualmente está ejerciendo en la empresa Informática Aplicada Consulting Group como desarrolladora.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="salvador.jpeg" class="card-img-top" alt="Salvador de J Pérez M">
+                    <div class="card-body">
+                        <p class="card-text">Salvador de J Pérez M. Estudiante de ingeniería en sistemas computacionales de octavo semestre en la Universidad del Valle de México, su área de interés es Redes y actualmente está ejerciendo en la Secretaria de Marina Armada de México en el área de TI Infraestructura.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+        
 </body>
 </html>
