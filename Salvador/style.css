@@ -23,3 +23,12 @@ img{
     color: fuchsia;
     text-align: center;
 }
+
+#boton{
+    text-align: center;
+    color:black;
+}
+
+button{
+    background-color: aqua;
+}
