@@ -1,0 +1,28 @@
+h1 {
+    color: #ff0000; 
+}
+
+h2 {
+    color: #00ff00; 
+}
+
+h3 {
+    color: #0000ff; 
+}
+
+table {
+    background-color: #f0f0f0; 
+}
+
+button{
+    margin: 0 10px;
+    padding: 20px 60px;
+    background-color: #5f92c8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #5f92c8;
+}
