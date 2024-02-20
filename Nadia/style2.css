@@ -1,0 +1,44 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #d9d9d9;
+    color: #333;
+}
+
+h1 {
+    color: #28a745;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+footer {
+    background-color: #28a745;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #660099; 
+}
+
+h2 {
+    color: #009966; }
+
+h3 {
+    color: #cc0000; }
+
+table {
+    background-color: #ffffcc; }
