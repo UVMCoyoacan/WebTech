@@ -1,0 +1,25 @@
+#titulo{
+    color: rgb(109, 140, 182);
+    text-align:right;
+}
+
+#nombre{
+    color: rgb(214, 185, 164);
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+#exp{
+    color: rgb(121, 65, 74);
+    text-align: center;
+}
+
+#edu{
+    color: rgb(3, 70, 64);
+    text-align:initial;
+}
