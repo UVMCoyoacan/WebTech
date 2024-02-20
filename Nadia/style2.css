@@ -41,4 +41,18 @@ h3 {
     color: #cc0000; }
 
 table {
-    background-color: #ffffcc; }
+    background-color: #ffffcc; 
+}
+
+button{
+    margin: 0 10px;
+    padding: 20px 60px;
+    background-color: #5f92c8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #5f92c8;
+}
