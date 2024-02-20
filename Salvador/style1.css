@@ -23,3 +23,12 @@ img{
     color: rgb(3, 70, 64);
     text-align:initial;
 }
+
+#boton{
+    text-align: center;
+    color:black;
+}
+
+button{
+    background-color: aqua;
+}
