@@ -44,7 +44,7 @@ li {
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #83aeeb;
   color: white;
   text-align: center;
   font-size: 16px;
@@ -55,5 +55,5 @@ li {
 }
 
 .btn:hover {
-  background-color: #45a049;
+  background-color: #356dbc;
 }
