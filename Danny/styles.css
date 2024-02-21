@@ -33,3 +33,29 @@ img {
     border-radius: 50%; /* Redondear los bordes */
     border: 3px solid #ddd; /* Agregar un borde */
 }
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left; /* Alineación del contenido a la izquierda */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f74780;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: #fa8fb1;
+}
