@@ -1,3 +1,9 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:'Raleway',sans-serif;
+}
+
 .container {
   display: flex;
   height: 100vh; /* El 100% de la altura de la ventana */
@@ -5,20 +11,20 @@
 
 .sidebar {
   flex: 0 0 30%; /* 30% del ancho total, sin crecer ni encoger */
-  background-color: #f2f2f2;
+  background-color: #1f5691;
   padding: 20px;
+  color: white; /* Letras blancas */
 }
 
 .sidebar img {
   width: 140px;
   height: 140px;
-  object-fit: cover;
+  object-fit: cover;;
   border-radius: 50%; /* Hacemos las imágenes circulares */
   border: 2px solid #fff; /* Añadimos un borde blanco */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadimos una sombra suave */
   margin: auto;
 }
-
 
 .main-content {
   flex: 1; /* El resto del espacio disponible */
@@ -39,15 +45,32 @@ li {
   margin-bottom: 5px;
 }
 
-/* Puedes agregar estilos adicionales según tus preferencias */
+.social-icons {
+  display: flex;
+  align-items: center; /* Alinear los elementos verticalmente */
+}
+
+.social-icons  i{
+  font-size: 28px;
+}
+
+
+.fa-linkedin-square,
+.fa-github-square {
+  color: #ccc; /* Cambiamos el color a gris claro */
+  transition: color 0.3s; /* Agregamos transición para suavizar el cambio de color */
+  margin-left: 10px; /* Espacio entre el botón y los íconos */
+}
+
+.fa-linkedin-square:hover,
+.fa-github-square:hover {
+  color: #fff; /* Cambiamos el color a blanco en hover */
+}
 
 .btn {
-  display: inline-block;
-  padding: 10px 20px;
   background-color: #83aeeb;
   color: white;
-  text-align: center;
-  font-size: 16px;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -57,3 +80,13 @@ li {
 .btn:hover {
   background-color: #356dbc;
 }
+
+section i {
+  float: left; /* Alinea los iconos a la izquierda */
+  margin-right: 10px; /* Agrega un margen a la derecha para separar los iconos del texto */ 
+}
+
+.icon-section i {
+  font-size: 28px; 
+}
+
