@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         localStorage.setItem('contactFormData', JSON.stringify(data));
 
+        console.log("Datos", data);
+
         // Redireccionar a la página de recibir datos
         window.location.href = "../public/receiveForms.html";
     });

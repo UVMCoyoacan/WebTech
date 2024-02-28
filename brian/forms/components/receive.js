@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // Obtener los datos guardados en localStorage
     const data = JSON.parse(localStorage.getItem('contactFormData'));
 
+    console.log("Datos:", data);
+
     // Mostrar los datos en la página
     if (data) {
         Object.keys(data).forEach(function(key) {
