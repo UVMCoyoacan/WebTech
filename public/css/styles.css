@@ -60,3 +60,20 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadimos una sombra suave */
     margin: auto;
 }
+
+.tech-section {
+    text-align: center;
+}
+
+.tech-section .row {
+    display: flex; 
+    justify-content: center; 
+}
+
+.tech-section .tech {
+    margin: 10px; 
+}
+
+.col-md-4 {
+    margin-bottom: 50px;
+}
