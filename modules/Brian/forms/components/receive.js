@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const datosDiv = document.getElementById("datos");
     
     // Obtener los datos guardados en localStorage
+    // TODO: obtener los datos en xml
     const data = JSON.parse(localStorage.getItem('contactFormData'));
 
     console.log("Datos:", data);

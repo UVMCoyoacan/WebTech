@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const formData = new FormData(form);
 
         // Convertir los datos a objeto y guardarlos en localStorage
+        // TODO: Guardar los datos en xml
         const data = {};
         for (const pair of formData.entries()) {
             data[pair[0]] = pair[1];
