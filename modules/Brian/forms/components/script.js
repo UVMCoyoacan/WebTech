@@ -5,18 +5,24 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
 
         const formData = new FormData(form);
-
-        // Convertir los datos a objeto y guardarlos en localStorage
-        // TODO: Guardar los datos en xml
-        const data = {};
+        
+        const xmlData = document.implementation.createDocument(null, 'formData');
+        
+        // iterar
         for (const pair of formData.entries()) {
-            data[pair[0]] = pair[1];
+            const [key, value] = pair;
+            const element = xmlData.createElement(key);
+            element.textContent = value;
+            xmlData.documentElement.appendChild(element);
         }
-        localStorage.setItem('contactFormData', JSON.stringify(data));
 
-        console.log("Datos", data);
 
-        // Redireccionar a la página de recibir datos
+        const xmlString = new XMLSerializer().serializeToString(xmlData);
+        localStorage.setItem('contactFormData', xmlString);
+
+        console.log("Datos:", xmlString);
+
+
         window.location.href = "../public/receiveForms.html";
     });
 });
