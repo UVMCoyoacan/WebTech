@@ -1,4 +1,4 @@
-<h1>Sitio Web || Consultora de Software || WebTeck</h1>
+<h1>Sitio Web || Consultora de Software || WebTech</h1>
 
  <p>Este proyecto implementa un sitio web con la información principal de la consultora así como de sus colaboradores, los cuales cuentan con un CV personal y un formulario en el DOM para el registro y manipulación de datos.</p>
 
