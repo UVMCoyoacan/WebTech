@@ -90,6 +90,18 @@ section i {
   font-size: 28px; 
 }
 
+.icon-section-tech i {
+  font-size: 28px; 
+}
+
+.icon-section-tech ul {
+  list-style-type: disc; 
+  margin-left: 20px; 
+}
+
+
+
+
 
 .modal {
   display: none;
