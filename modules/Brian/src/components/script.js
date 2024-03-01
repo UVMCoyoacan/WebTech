@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         console.log("Datos:", xmlString);
 
-
+        
         window.location.href = "../public/receiveForms.html";
     });
 });

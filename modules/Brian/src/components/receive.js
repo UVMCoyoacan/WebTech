@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Obtener los datos en XML
     const xmlString = localStorage.getItem('contactFormData');
-    console.log(xmlString);
+    console.log("Datos recibidos: ",xmlString);
 
     
     if (xmlString) {
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 p.textContent = `${key}: ${data[key]}`;
                 datosDiv.appendChild(p);
             });
-            console.log(data);
+            console.log("Datos en Objetect:",data);
         } else {
             datosDiv.textContent = "No se pudo almacenar los datos.";
         }

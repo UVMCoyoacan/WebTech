@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Currículum Vitae</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../public/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -16,9 +16,9 @@
       <p>Brian.VianaC@outlook.com</p>
       <p>Spanish - Native || English - B2</p>
       <div class="social-icons">
-        <a href="forms/public/forms.html">
+        <a id="contactarBtn" href="#"> 
           <button class="btn">Contactar</button>
-        </a>
+        </a>        
         <a href="https://www.linkedin.com/in/brian-viana7/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square"></i></a>
         <a href="https://github.com/BrianVianaC7" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-square"></i></a>
       </div>
@@ -137,6 +137,17 @@
         </ul>
       </section>    
     </div>
+
+    <div id="modalContacto" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <iframe src="../public/forms.html"></iframe> 
+      </div>
+    </div>
+    <div id="modalBackground"></div>
+
+
   </div>
 </body>
+<script src="../src/modal.js"></script>
 </html>
