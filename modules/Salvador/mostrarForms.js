@@ -1,11 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Obtenemos los datos del localStorage
     var jsonData = localStorage.getItem('formData');
 
-    // Convertimos el JSON a objeto
     var formData = JSON.parse(jsonData);
 
-    // Mostramos los datos en el documento
     var contactDataElement = document.getElementById('contactData');
     contactDataElement.innerHTML = `
         <p><strong>Nombre:</strong> ${formData.name}</p>

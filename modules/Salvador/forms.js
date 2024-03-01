@@ -17,12 +17,9 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         message: message
     };
 
-    // Convertimos el objeto a JSON para enviarlo al otro documento
     var jsonData = JSON.stringify(formData);
 
-    // Enviamos los datos al otro documento utilizando el localStorage
     localStorage.setItem('formData', jsonData);
 
-    // Redireccionamos a la página que muestra los datos
     window.location.href = 'mostrarForms.html';
 });
