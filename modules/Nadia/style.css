@@ -1,19 +1,36 @@
 body {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
 }
 
-h1, h2, h3 {
-    color: #da7c7c; 
+.container {
+    display: flex;
+    border: 2px solid #ddd; /* Color del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden;
 }
 
-table {
-    width: 80%;
-    margin: 0 auto;
-    border-collapse: collapse;
+.personal-info {
+    width: 45%;
+    max-width: 500px;
+    background-color: #ffc0cb; 
+    padding: 20px;
 }
 
-table, th, td {
-    border: 1px solid #fbcfcf; 
+.professional-info {
+    width: 55%;
+    padding: 20px;
+}
+
+.personal-info img {
+    width: 100%;
+    height: auto;
+}
+
+article {
+    margin-bottom: 20px;
 }
 
 button{
