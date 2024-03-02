@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="css//forms.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Deja tus Datos:</h2>
+        <form id="form">
+            <div class="form-group">
+                <label for="nombre">Fecha:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre(s):</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Personal:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="asunto">Motivo:</label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Razón:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="../src/forms.js"></script>
+</body>
+</html>

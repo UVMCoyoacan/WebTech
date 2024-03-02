@@ -1,0 +1,53 @@
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #ff1493; /* Cambiado a color rosa */
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    input[type="date"] { /* Añadido input[type="date"] */
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ffc0cb; /* Cambiado a color rosa */
+    }
+    textarea {
+        resize: none;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #ff1493; /* Cambiado a color rosa */
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #ff69b4; /* Cambiado a tono más claro de rosa */
+    }
+    #datos {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #ffc0cb; /* Cambiado a color rosa */
+        border-radius: 10px;
+        position: relative; 
+    }
+
+
+    #datos img {
+        width: 150px;
+        position: absolute; 
+        bottom: 70px;
+        left: 0;
+        right: -150px;
+        margin: auto; 
+    }
